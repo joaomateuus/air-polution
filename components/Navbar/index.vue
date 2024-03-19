@@ -6,7 +6,7 @@
         </div>
         <div class="flex items-center justify-evenly w-96 h-32">
             <button class="h-12 w-32 border-2 border-green-500 rounded-full hover:bg-green-500 hover:text-white">
-                <a href="/Login">Login</a>
+                <NuxtLink to="/Login">Login</NuxtLink>
             </button>
             <button class="h-12 w-32 border-2 border-green-500 rounded-full hover:bg-green-500 hover:text-white">
                 Sobre
