@@ -8,9 +8,15 @@ export default {
     "./app.vue",
     "./error.vue",
   ],
+  plugins: [
+    require('flowbite/plugin')
+  ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  content: [
+    // other files...
+    "./node_modules/flowbite/**/*.{js,ts}"
+  ],
 }
 
