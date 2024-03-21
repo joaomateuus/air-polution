@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     transpile: ['@googlemaps/js-api-loader']
   },
   modules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    "@pinia/nuxt",
   ],
   postcss: {
     plugins: {
