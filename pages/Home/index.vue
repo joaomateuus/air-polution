@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 <script lang="ts">
-import Navbar from '../components/Navbar/index.vue';
+import Sidebar from "../components/Sidebar/index.vue";
 import { Loader } from '@googlemaps/js-api-loader';
 import { ref, onMounted } from 'vue';
 import { initFlowbite } from 'flowbite'
